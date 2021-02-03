@@ -31,7 +31,7 @@ Util.onReady(function () {
         request.send('hocr=' + encodeURIComponent(hocr));
     });
 
-    var hocrBaseUrl = 'data/pdf2images/';
+    var hocrBaseUrl = '.data/pdf2images/';
     var hocrUrl = hocrBaseUrl + 'out.hocr';
 
     Util.get(hocrUrl, function (err, hocr) {
